@@ -1,0 +1,9 @@
+<h2>{{trip.id | uppercase}} Details</h2>
+<div><span>Route: </span>{{trip.routeId}}</div>
+<div><span>Driver: </span>{{trip.driverId}}</div>
+<div><span>Status: </span>{{trip.status}}</div>
+<div><span>Started at: </span>{{trip.startedAt}}</div>
+<div>
+  <label for="id">Hero name: </label>
+  <input id="id" [(ngModel)]="trip.id" placeholder="id">
+</div>
